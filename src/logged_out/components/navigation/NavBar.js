@@ -11,9 +11,10 @@ import BookIcon from "@mui/icons-material/Book";
 import NavigationDrawer from "../../../shared/components/NavigationDrawer";
 
 const styles = theme => ({
+  // NAV BAR
   appBar: {
     boxShadow: theme.shadows[6],
-    backgroundColor: theme.palette.common.white
+    backgroundColor: "#0C0C0C"
   },
   toolbar: {
     display: "flex",
@@ -50,7 +51,7 @@ function NavBar(props) {
     },
     {
       link: "/blog",
-      name: "Blog",
+      name: "Reports & Insights",
       icon: <BookIcon className="text-white" />
     },
     {
@@ -73,17 +74,17 @@ function NavBar(props) {
               variant="h4"
               className={classes.brandText}
               display="inline"
-              color="primary"
+              color="#74F9A0" //move to css
             >
-              Wa
+              NFT
             </Typography>
             <Typography
               variant="h4"
               className={classes.brandText}
               display="inline"
-              color="secondary"
+              color="white"
             >
-              Ver
+              Ana
             </Typography>
           </div>
           <div>
@@ -107,7 +108,7 @@ function NavBar(props) {
                       onClick={handleMobileDrawerClose}
                     >
                       <Button
-                        color="secondary"
+                        color="white"
                         size="large"
                         classes={{ text: classes.menuButtonText }}
                       >
@@ -118,7 +119,7 @@ function NavBar(props) {
                 }
                 return (
                   <Button
-                    color="secondary"
+                    color="white"
                     size="large"
                     onClick={element.onClick}
                     classes={{ text: classes.menuButtonText }}

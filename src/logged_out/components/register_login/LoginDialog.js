@@ -9,6 +9,7 @@ import HighlightedInformation from "../../../shared/components/HighlightedInform
 import ButtonCircularProgress from "../../../shared/components/ButtonCircularProgress";
 import VisibilityPasswordTextField from "../../../shared/components/VisibilityPasswordTextField";
 
+
 const styles = (theme) => ({
   forgotPassword: {
     marginTop: theme.spacing(2),
@@ -197,5 +198,7 @@ LoginDialog.propTypes = {
   history: PropTypes.object.isRequired,
   status: PropTypes.string,
 };
+
+
 
 export default withRouter(withStyles(styles)(LoginDialog));

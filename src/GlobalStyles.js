@@ -49,9 +49,11 @@ const styles = theme => ({
       width: "100%",
       paddingRight: theme.spacing(2),
       paddingLeft: theme.spacing(2),
+      paddingTop: theme.spacing(2),
+      paddingBottom: theme.spacing(2),
       marginRight: "auto",
       marginLeft: "auto",
-      maxWidth: 1370
+      maxWidth: 1440
     },
     ".lg-mg-top": {
       marginTop: `${theme.spacing(20)} !important`,
@@ -79,6 +81,7 @@ const styles = theme => ({
     },
     ".lg-p-top": {
       paddingTop: `${theme.spacing(20)} !important`,
+      paddingBottom: `${theme.spacing(20)} !important`,
       [theme.breakpoints.down('lg')]: {
         paddingTop: `${theme.spacing(18)} !important`
       },

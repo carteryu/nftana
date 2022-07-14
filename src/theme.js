@@ -1,11 +1,15 @@
 import { createTheme, responsiveFontSizes, adaptV4Theme } from "@mui/material";
 
 // colors
-const primary = "#b3294e";
-const secondary = "#4829B2";
+const primary = "#3A3B3C";
+const secondary = "#18191A";
 const black = "#343a40";
+const white = "#FFFFFF";
+const gray = "#3A3B3C";
+const lightGray = "#242526"
+const test = "red";
 const darkBlack = "rgb(36, 40, 44)";
-const background = "#f5f5f5";
+const background = "#3A3B3C";
 const warningLight = "rgba(253, 200, 69, .3)";
 const warningMain = "rgba(253, 200, 69, .5)";
 const warningDark = "rgba(253, 200, 69, .7)";
@@ -28,6 +32,10 @@ const theme = createTheme(adaptV4Theme({
   palette: {
     primary: { main: primary },
     secondary: { main: secondary },
+    white: { main: white},
+    gray: { main: gray},
+    lightGray: { main: lightGray},
+    test: { main: test}, // this is just to test
     common: {
       black,
       darkBlack

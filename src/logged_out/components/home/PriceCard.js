@@ -34,43 +34,44 @@ const styles = (theme) => ({
 function PriceCard(props) {
   const { classes, theme, title, pricing, features, highlighted } = props;
   return (
-    <div className={highlighted ? classes.cardHightlighted : classes.card}>
-      <Box mb={2}>
-        <Typography
-          variant={highlighted ? "h5" : "h6"}
-          className={highlighted ? "text-white" : classes.title}
-        >
-          {title}
-        </Typography>
-      </Box>
-      <Box mb={2}>
-        <Typography
-          variant={highlighted ? "h3" : "h4"}
-          className={highlighted ? "text-white" : null}
-        >
-          {pricing}
-        </Typography>
-      </Box>
-      {features.map((feature, index) => (
-        <Box display="flex" alignItems="center" mb={1} key={index}>
-          <CheckIcon
-            style={{
-              color: highlighted
-                ? theme.palette.common.white
-                : theme.palette.primary.dark,
-            }}
-          />
-          <Box ml={1}>
-            <Typography
-              className={highlighted ? "text-white" : null}
-              variant={highlighted ? "h6" : "body1"}
-            >
-              {feature}
-            </Typography>
-          </Box>
-        </Box>
-      ))}
-    </div>
+    <div></div>
+    // <div className={highlighted ? classes.cardHightlighted : classes.card}>
+    //   <Box mb={2}>
+    //     <Typography
+    //       variant={highlighted ? "h5" : "h6"}
+    //       className={highlighted ? "text-white" : classes.title}
+    //     >
+    //       {title}
+    //     </Typography>
+    //   </Box>
+    //   <Box mb={2}>
+    //     <Typography
+    //       variant={highlighted ? "h3" : "h4"}
+    //       className={highlighted ? "text-white" : null}
+    //     >
+    //       {pricing}
+    //     </Typography>
+    //   </Box>
+    //   {features.map((feature, index) => (
+    //     <Box display="flex" alignItems="center" mb={1} key={index}>
+    //       <CheckIcon
+    //         style={{
+    //           color: highlighted
+    //             ? theme.palette.common.white
+    //             : theme.palette.primary.dark,
+    //         }}
+    //       />
+    //       <Box ml={1}>
+    //         <Typography
+    //           className={highlighted ? "text-white" : null}
+    //           variant={highlighted ? "h6" : "body1"}
+    //         >
+    //           {feature}
+    //         </Typography>
+    //       </Box>
+    //     </Box>
+    //   ))}
+    // </div>
   );
 }
 

@@ -76,11 +76,11 @@ const styles = (theme) => ({
 const infos = [
   {
     icon: <PhoneIcon />,
-    description: "+1 555 123456",
+    description: "+1 420 6969",
   },
   {
     icon: <MailIcon />,
-    description: "support@company.com",
+    description: "Cuisino@NFTAna.com",
   },
 ];
 
@@ -158,7 +158,7 @@ function Footer(props) {
   return (
     <footer className="lg-p-top">
       <WaveBorder
-        upperColor="#FFFFFF"
+        upperColor="#0C0C0C"
         lowerColor={theme.palette.common.darkBlack}
         animationNegativeDelay={4}
       />
@@ -224,11 +224,10 @@ function Footer(props) {
           </Hidden>
           <Grid item xs={12} md={6} lg={4}>
             <Typography variant="h6" paragraph className="text-white">
-              About the Company
+              About us
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
-              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
-              euismod convallis velit, eu auctor lacus vehicula sit amet.
+              Get in contact with us etc
             </Typography>
             <Box display="flex">
               {socialIcons.map((socialIcon, index) => (

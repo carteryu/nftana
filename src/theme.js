@@ -8,7 +8,6 @@ const white = "#FFFFFF";
 const gray = "#3A3B3C";
 const lightGray = "#242526"
 const test = "red";
-const test2 = "blue";
 const darkBlack = "rgb(36, 40, 44)";
 const background = "#3A3B3C";
 const warningLight = "rgba(253, 200, 69, .3)";

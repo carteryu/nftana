@@ -45,7 +45,7 @@ const columns = [
   },
   {
     id: 'secondaryMarket',
-    label: 'Secondary Market',
+    label: 'Exchange',
     minWidth: 170,
     align: 'right',
     format: (value) => value.toFixed(2),

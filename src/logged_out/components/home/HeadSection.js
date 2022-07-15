@@ -6,6 +6,7 @@ import withStyles from "@mui/styles/withStyles";
 import WaveBorder from "../../../shared/components/WaveBorder";
 import ZoomImage from "../../../shared/components/ZoomImage";
 import StickyHeadTable from "./Table"
+import NavTabs from "./Tabs"
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 const styles = (theme) => ({
@@ -118,6 +119,7 @@ function HeadSection(props) {
       
         <div className={classNames("container-fluid", classes.container)}>
         <Box display="flex" justifyContent="center" className="row" style={{padding:1}}>
+          <NavTabs/>
         <StickyHeadTable></StickyHeadTable>
         </Box>
         </div>

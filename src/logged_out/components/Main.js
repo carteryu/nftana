@@ -32,7 +32,7 @@ function Main(props) {
   const selectHome = useCallback(() => {
     smoothScrollTop();
     document.title =
-      "Select home callback";
+      "NFTANA";
     setSelectedTab("Home");
   }, [setSelectedTab]);
 
